@@ -3,80 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
+    <title>Syed Irtaza Akram - CV</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <table>
-        <tr>
-          <td width="200px"></td>
-          <td width="400px" height="250px">
-            <img src="my pic.jpg" alt="" width="250px" height="250px" />
-          </td>
-          <td>
-            <table>
-              <tr>
-                <h1>Syed Irtaza Akram</h1>
-              </tr>
-              <tr>
-                <h2>Web Developer</h2>
-              </tr>
-              <tr>
-                <ul>
-                  <li>0321-1823484</li>
-                  <li>syedirtaza64@gmail.com</li>
-                  <li>Street#3 House#45 Lahore</li>
-                </ul>
-              </tr>
+    <div class="container">
+      <header class="header">
+        <div class="profile-image">
+          <img src="my pic.jpg" alt="Syed Irtaza Akram" />
+        </div>
+        <div class="profile-info">
+          <h1>Syed Irtaza Akram</h1>
+          <h2>Web Developer</h2>
+          <ul class="contact-info">
+            <li><i class="phone"></i>0321-1823484</li>
+            <li><i class="email"></i>syedirtaza64@gmail.com</li>
+            <li><i class="location"></i>Street#3 House#45 Lahore</li>
+          </ul>
+        </div>
+      </header>
 
-              <tr></tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-
-      <table cellpadding="10px">
-        <tr height="50px"></tr>
-        <tr>
-          <td width="100px"></td>
-          <td><h3>Profile:</h3></td>
-          <td width="300px"></td>
-          <td>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+      <main>
+        <section class="section">
+          <h3>Profile</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Exercitationem ad voluptate reiciendis sed dolore iure dolorum vero
-            <br />
             earum, maxime blanditiis culpa, magni eaque fugit quasi tempore est
-            <br />
             maiores. Deserunt, sequi?
-          </td>
-        </tr>
+          </p>
+        </section>
 
-        <tr>
-          <td width="100px"></td>
-          <td><h3>Skills:</h3></td>
-          <td width="300px"></td>
-          <td>
-            <ul>
-              <li>Html</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>OOP</li>
-              <li>DSA</li>
-              <li>Java</li>
-            </ul>
-          </td>
-        </tr>
+        <section class="section">
+          <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>OOP</li>
+            <li>DSA</li>
+            <li>Java</li>
+          </ul>
+        </section>
 
-        <tr>
-          <td width="100px"></td>
-          <td><h3>Experience:</h3></td>
-          <td width="300px"></td>
-          <td>
-            <h2>Web Developer</h2>
-            <span>Game Storm Studio</span>
-          </td>
-        </tr>
-      </table>
-    </header>
+        <section class="section">
+          <h3>Experience</h3>
+          <div class="experience-item">
+            <h4>Web Developer</h4>
+            <p class="company">Game Storm Studio</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h3>Education</h3>
+          <div class="education-item">
+            <h4>Software Engineering</h4>
+            <p class="institution">Comsats University Lahore</p>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
